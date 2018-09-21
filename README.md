@@ -1,2 +1,2 @@
 # ESNewsProject
-a practice project with RXSwift.
+A practice project with RXSwift.
