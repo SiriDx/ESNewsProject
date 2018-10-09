@@ -7,10 +7,12 @@
 //
 
 import UIKit
+import AVFoundation
 
 class RadioListVC: BaseVC {
 
     var tableView:UITableView!
+    var player:AVPlayer = AVPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,13 +24,13 @@ class RadioListVC: BaseVC {
             ]
         )
         
-        items.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: RadioListCell.self)) { [weak self] (row, item, cell) in
+        items.bind(to: tableView.rx.items(cellIdentifier: "cell", cellType: RadioListCell.self)) { [weak self] (row, radio, cell) in
             
-                cell.item = item
+                cell.item = radio
             
                 cell.playBtn.rx.tap
                     .bind { [weak self] in
-                       self?.play()
+                       self?.play(radio)
                     }
                     .disposed(by: self!.disposeBag)
             
@@ -43,8 +45,11 @@ class RadioListVC: BaseVC {
         
     }
     
-    func play() {
-        
+    func play(_ radio:RadioItem) {
+        guard let steamURL = URL(string: radio.steam) else { return }
+        let item = AVPlayerItem.init(url: steamURL)
+        player.replaceCurrentItem(with: item)
+        player.play()
     }
     
     func setupTableView() {

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05806B04216B00A400950C0E /* RadioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05806B03216B00A400950C0E /* RadioListVC.swift */; };
-		05806B06216B00B100950C0E /* RadioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05806B05216B00B100950C0E /* RadioItem.swift */; };
 		05806B08216B00DF00950C0E /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05806B07216B00DF00950C0E /* Api.swift */; };
 		05806B0A216B0A4700950C0E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05806B09216B0A4700950C0E /* BaseVC.swift */; };
 		05806B10216B0BF900950C0E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05806B12216B0BF900950C0E /* Localizable.strings */; };
 		05806B21216B0F4800950C0E /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05806B20216B0F4800950C0E /* StringExt.swift */; };
-		05BD1AD8216C50D90011A3D1 /* RadioListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1AD7216C50D90011A3D1 /* RadioListCell.swift */; };
-		05BD1ADA216C8B390011A3D1 /* RadioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1AD9216C8B390011A3D1 /* RadioPlayerVC.swift */; };
+		05BD1AE3216C9B6F0011A3D1 /* RadioListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1ADC216C9B6E0011A3D1 /* RadioListVC.swift */; };
+		05BD1AE4216C9B6F0011A3D1 /* RadioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1ADD216C9B6E0011A3D1 /* RadioPlayerVC.swift */; };
+		05BD1AE5216C9B6F0011A3D1 /* ZoomBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1ADF216C9B6E0011A3D1 /* ZoomBrowserView.swift */; };
+		05BD1AE6216C9B6F0011A3D1 /* RadioListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1AE0216C9B6E0011A3D1 /* RadioListCell.swift */; };
+		05BD1AE7216C9B6F0011A3D1 /* RadioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1AE2216C9B6F0011A3D1 /* RadioItem.swift */; };
+		05BD1AE9216C9E500011A3D1 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD1AE8216C9E500011A3D1 /* PlayerManager.swift */; };
 		05E706FF2154C64700719EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E706EF2154C64600719EF9 /* Assets.xcassets */; };
 		05E707002154C64700719EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E706F02154C64600719EF9 /* LaunchScreen.storyboard */; };
 		05E707012154C64700719EF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05E706F22154C64600719EF9 /* Info.plist */; };
@@ -28,15 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05806B03216B00A400950C0E /* RadioListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioListVC.swift; sourceTree = "<group>"; };
-		05806B05216B00B100950C0E /* RadioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioItem.swift; sourceTree = "<group>"; };
 		05806B07216B00DF00950C0E /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		05806B09216B0A4700950C0E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		05806B11216B0BF900950C0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		05806B13216B0C1E00950C0E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		05806B20216B0F4800950C0E /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
-		05BD1AD7216C50D90011A3D1 /* RadioListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioListCell.swift; sourceTree = "<group>"; };
-		05BD1AD9216C8B390011A3D1 /* RadioPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioPlayerVC.swift; sourceTree = "<group>"; };
+		05BD1ADC216C9B6E0011A3D1 /* RadioListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioListVC.swift; sourceTree = "<group>"; };
+		05BD1ADD216C9B6E0011A3D1 /* RadioPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayerVC.swift; sourceTree = "<group>"; };
+		05BD1ADF216C9B6E0011A3D1 /* ZoomBrowserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomBrowserView.swift; sourceTree = "<group>"; };
+		05BD1AE0216C9B6E0011A3D1 /* RadioListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioListCell.swift; sourceTree = "<group>"; };
+		05BD1AE2216C9B6F0011A3D1 /* RadioItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioItem.swift; sourceTree = "<group>"; };
+		05BD1AE8216C9E500011A3D1 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
 		05E706D92154C4C900719EF9 /* ESNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E706EF2154C64600719EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05E706F12154C64600719EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,12 +71,38 @@
 		05806B02216AEB6B00950C0E /* Radio */ = {
 			isa = PBXGroup;
 			children = (
-				05806B03216B00A400950C0E /* RadioListVC.swift */,
-				05806B05216B00B100950C0E /* RadioItem.swift */,
-				05BD1AD7216C50D90011A3D1 /* RadioListCell.swift */,
-				05BD1AD9216C8B390011A3D1 /* RadioPlayerVC.swift */,
+				05BD1ADB216C9B6E0011A3D1 /* Controller */,
+				05BD1AE1216C9B6F0011A3D1 /* Model */,
+				05BD1ADE216C9B6E0011A3D1 /* View */,
 			);
 			path = Radio;
+			sourceTree = "<group>";
+		};
+		05BD1ADB216C9B6E0011A3D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05BD1ADC216C9B6E0011A3D1 /* RadioListVC.swift */,
+				05BD1ADD216C9B6E0011A3D1 /* RadioPlayerVC.swift */,
+				05BD1AE8216C9E500011A3D1 /* PlayerManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		05BD1ADE216C9B6E0011A3D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05BD1ADF216C9B6E0011A3D1 /* ZoomBrowserView.swift */,
+				05BD1AE0216C9B6E0011A3D1 /* RadioListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		05BD1AE1216C9B6F0011A3D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05BD1AE2216C9B6F0011A3D1 /* RadioItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		05E706D02154C4C900719EF9 = {
@@ -301,17 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BD1AE3216C9B6F0011A3D1 /* RadioListVC.swift in Sources */,
 				05806B08216B00DF00950C0E /* Api.swift in Sources */,
+				05BD1AE7216C9B6F0011A3D1 /* RadioItem.swift in Sources */,
 				05E707052154C64700719EF9 /* AppDelegate.swift in Sources */,
 				05E707032154C64700719EF9 /* Global.swift in Sources */,
-				05806B06216B00B100950C0E /* RadioItem.swift in Sources */,
+				05BD1AE9216C9E500011A3D1 /* PlayerManager.swift in Sources */,
+				05BD1AE5216C9B6F0011A3D1 /* ZoomBrowserView.swift in Sources */,
 				05E707092154CB3E00719EF9 /* HomeVC.swift in Sources */,
-				05BD1AD8216C50D90011A3D1 /* RadioListCell.swift in Sources */,
 				05806B21216B0F4800950C0E /* StringExt.swift in Sources */,
-				05BD1ADA216C8B390011A3D1 /* RadioPlayerVC.swift in Sources */,
 				05E7070B2154CBBD00719EF9 /* HomeVM.swift in Sources */,
+				05BD1AE4216C9B6F0011A3D1 /* RadioPlayerVC.swift in Sources */,
 				05E707062154C64700719EF9 /* BaseNavigationController.swift in Sources */,
-				05806B04216B00A400950C0E /* RadioListVC.swift in Sources */,
+				05BD1AE6216C9B6F0011A3D1 /* RadioListCell.swift in Sources */,
 				05E707042154C64700719EF9 /* MainTabBarController.swift in Sources */,
 				05806B0A216B0A4700950C0E /* BaseVC.swift in Sources */,
 			);
