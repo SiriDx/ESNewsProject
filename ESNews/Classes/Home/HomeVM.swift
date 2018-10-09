@@ -8,6 +8,6 @@
 
 import UIKit
 
-class HomeVM: NSObject {
-
+class HomeVM {
+    
 }

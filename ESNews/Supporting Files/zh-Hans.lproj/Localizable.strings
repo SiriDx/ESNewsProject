@@ -1,0 +1,11 @@
+/* 
+  Localized.strings
+  ESNews
+
+  Created by Dean on 2018/10/8.
+  Copyright © 2018年 siridx. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "西班牙之声";
+"tabbar_home" = "新闻";
+"tabbar_radio" = "收音机";
